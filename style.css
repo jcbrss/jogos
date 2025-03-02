@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0:#1D4ED8; 
+    --cor1:#52669D; 
+    --cor2:#2E62F2; 
+    --cor3:#4F5973; 
+    --cor4:#3E4148;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque:  "Poppins", serif; 
+}
+
+body {
+    background-color: var(--cor4)(218, 218, 218);
+    font-family: var(--fonte-destaque);
+}
+
+
+header {
+    background-color:#000000;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 50px;
+}
+header > h1 {
+    font-family: var(--fonte-destaque);
+    color: #ffffff;
+}
+
+header > p {
+    font-family: var(--fonte-destaque);
+    color: #ebecef;
+}
+
+aside > p {
+    margin-bottom: 20px; /* Dá 20px de espaço abaixo de cada parágrafo */
+  }
+
+nav {
+    background-color: #141414;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav > a {
+    color:#fcfbfb;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: .5s;
+}
+
+a:hover {
+    background-color: #a0a0a4;
+}
+
+main {
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom:30px ;
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 0px 0px 10px #3e41485b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h1 {
+    font-family: var(--fonte-destaque);
+}
+
+main h3 {
+    font-family: var(--fonte-destaque);
+}
+
+main p {
+    font-family: var(--fonte-destaque);
+    margin-bottom: 10px;
+
+}
+
+main img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.yt-holder {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+    border: 1px solid black;
+}
+
+.yt-holder > iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.vendas {
+    color:#1B68BB; 
+    font-weight: bold;
+}
+
+aside {
+    background-color: #f1eeeef5;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #141414;
+    color: aliceblue;
+    text-align: center;
+}
+
+.videotetris {
+    text-align: center;
+}
